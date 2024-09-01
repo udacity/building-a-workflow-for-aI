@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-def createHistPrices(start_date = '2000-01-01', end_date   = '2024-05-01'):    
+def createHistPrices(start_date = '2000-01-01', end_date = '2024-05-01'):    
     # Define the list of tickers
     sp500_tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]['Symbol'].tolist()
     
